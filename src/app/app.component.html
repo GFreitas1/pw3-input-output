@@ -1,0 +1,8 @@
+<app-text-overflow [titulo]="'socorro'"
+[texto]="'texto todo aquiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii'"
+[clip]="false"
+></app-text-overflow>
+<app-aleatorio [min]="1" [max]="100"
+(resultado)="processar($event)"
+></app-aleatorio>
+<p>{{resultado}}</p>
